@@ -17,3 +17,7 @@ Now it is time to download bootstrap
 * Run ***npm install bootstrap*** which installs/downloads bootstrap in the latest version currently 4.4.1
 * Create a folder called sass and copy the files from the folder ***node_modules/bootstrap/sass***.
   * The ***LICENSE***, ***README.md*** and ***package.json*** are not needed.
+
+Compile the .scss files to .css with the following sass command ***sass scss\bootstrap\bootstrap.scss:css/bootstrap.css***
+    
+    sass scss-source:css-output-destination
